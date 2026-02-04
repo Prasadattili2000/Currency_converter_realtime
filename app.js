@@ -19,7 +19,7 @@ for (let select of dropdowns) {
         }
         select.append(newOPtion);
     }
-
+ 
     select.addEventListener("change", (evt) => {
         updateFLG(evt.target);
     });
